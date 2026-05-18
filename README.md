@@ -1,8 +1,7 @@
 # Driver Drowsiness Detection Using Deep Learning
 
 ## Project Overview
-Real-time driver drowsiness detection using CNN, MediaPipe,
-EAR/MAR and head pose estimation.
+Driver Drowsiness Detection Using Deep Learning Techniques.
 NTCC Project — Amity School of Engineering & Technology, 2026
 
 ## Pipeline
