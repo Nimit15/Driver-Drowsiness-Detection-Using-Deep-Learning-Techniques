@@ -19,4 +19,4 @@ Python | TensorFlow | OpenCV | MediaPipe | Streamlit
 | Week | Task | Status |
 |------|------|--------|
 | 1 | Setup, EDA, Literature Review | ✅ Done |
-| 2 | Preprocessing & Augmentation | ⏳ Pending |
+| 2 | Preprocessing & Augmentation | ✅ Done |
