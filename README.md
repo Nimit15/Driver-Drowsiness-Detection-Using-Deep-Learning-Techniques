@@ -98,14 +98,14 @@ Driver-Drowsiness-Detection-Using-Deep-Learning-Techniques/
 
 | Week | Task | Status |
 |------|------|--------|
-| 1 | Topic finalization, literature survey, environment setup | ✅ Done |
-| 2 | Dataset download (Kaggle), exploratory data analysis | ✅ Done |
-| 3 | Data preprocessing, augmentation, train/val/test split | ✅ Done |
-| 4 | CNN architecture design, EAR/MAR module implementation | ✅ Done |
-| 5 | MobileNetV2 training — Eye 99.54%, Yawn 88.99% | ✅ Done |
-| 6 | Hyperparameter tuning, yawn model fine-tuning above 90% | ✅ Done |
-| 7 | Real-time webcam integration, MediaPipe, alert system | 🔄 In Progress |
-| 8 | Streamlit app, session logging, analytics dashboard | ⏳ Pending |
+| 1 | Topic finalization, literature survey, environment setup | Done |
+| 2 | Dataset download (Kaggle), exploratory data analysis | Done |
+| 3 | Data preprocessing, augmentation, train/val/test split | Done |
+| 4 | CNN architecture design, EAR/MAR module implementation | Done |
+| 5 | MobileNetV2 training — Eye 99.54%, Yawn 88.99% | Done |
+| 6 | Hyperparameter tuning, yawn model fine-tuning above 90% | Done |
+| 7 | Real-time webcam integration, MediaPipe, alert system | Done |
+| 8 | Streamlit app, session logging, analytics dashboard | In Progress |
 | 9 | Research paper writing, final submission | ⏳ Pending |
 
 ---
