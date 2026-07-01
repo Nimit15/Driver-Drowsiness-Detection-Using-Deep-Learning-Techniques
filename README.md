@@ -34,9 +34,8 @@ We ended up training two separate MobileNetV2 models instead of one 4-class mode
 
 | Model | Task | Architecture | Test Accuracy |
 |-------|------|-------------|---------------|
-| eye_model.h5 | Closed vs Open eye | MobileNetV2 fine-tuned | 99.54% |
-| face_model.h5 | Yawn vs No Yawn | MobileNetV2 fine-tuned | 88.99%+ |
-
+| eye_model.h5 | Closed vs Open eye | MobileNetV2 fine-tuned | 99.08% |
+| face_model.h5 | Yawn vs No Yawn | MobileNetV2 fine-tuned (50 layers, lr=3e-5) | 90.37% |
 ---
 
 ## Dataset
