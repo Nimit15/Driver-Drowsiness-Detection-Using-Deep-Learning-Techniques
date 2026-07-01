@@ -106,7 +106,7 @@ Driver-Drowsiness-Detection-Using-Deep-Learning-Techniques/
 | 6 | Hyperparameter tuning, yawn model fine-tuning above 90% | Done |
 | 7 | Real-time webcam integration, MediaPipe, alert system | Done |
 | 8 | Streamlit app, session logging, analytics dashboard | In Progress |
-| 9 | Research paper writing, final submission | ⏳ Pending |
+| 9 | Research paper writing, final submission | Pending |
 
 ---
 
