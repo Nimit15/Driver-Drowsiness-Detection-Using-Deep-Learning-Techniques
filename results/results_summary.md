@@ -27,10 +27,16 @@ Architecture: MobileNetV2 (ImageNet pretrained) + custom head
 Training: 2-phase — frozen base (20 epochs) then fine-tuned last 30 layers (20 epochs) + Week 6 extended fine-tuning (50 layers, lr=3e-5)  
 Input: 96x96 RGB full face driver images
 
-| Metric | Week 5 | Week 6 (after tuning) |
-|--------|--------|----------------------|
-| Test Accuracy | 88.99% | 90%+ |
-| Test Loss | 0.4638 | Lower |
+### Yawn Detection Model (yawn vs no_yawn)
+
+| Metric | Week 5 | Week 6 (fine-tuned: 50 layers, lr=3e-5) |
+|--------|--------|------------------------------------------|
+| Test Accuracy | 88.99% | 90.37% |
+
+Fine-tuning unfroze 50 MobileNetV2 layers (up from 30) and used a lower
+learning rate of 3e-5, which allowed the model to adapt more of its
+feature extractors to the full-face driver images without destroying
+the pretrained weights.
 
 Yawn detection is harder because the images are full face shots in a car environment with varying lighting, glasses, different people. 88-90% is solid for this task.
 
