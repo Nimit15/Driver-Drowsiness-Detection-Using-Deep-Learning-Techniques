@@ -70,7 +70,7 @@ Full implementation in [`src/realtime_detection.py`](src/realtime_detection.py).
 | yawn | 723 | Full-face driver images |
 | no_yawn | 725 | Full-face driver images |
 
-Setup instructions in [`data/README.md`](data/README.md).
+Setup instructions in [`data/data_README.md`](data/data_README.md).
 
 ---
 
