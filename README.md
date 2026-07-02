@@ -105,7 +105,7 @@ pip install -r requirements.txt
 python src/realtime_detection.py
 ```
 
-Press `Q` to quit. See [`models/README.md`](models/README.md) if the model files are missing.
+Press `Q` to quit. See [`models/models_README.md`](models/models_README.md) if the model files are missing.
 
 ---
 
