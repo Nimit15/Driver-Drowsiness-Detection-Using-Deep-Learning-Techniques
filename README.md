@@ -1,6 +1,6 @@
 # Driver Drowsiness Detection Using Deep Learning Techniques
 
-![Python](https://img.shields.io/badge/Python-3.10-blue) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange) ![License](https://img.shields.io/badge/License-MIT-green) ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10-blue) ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16-orange)  ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 A real-time system that watches a driver through a webcam and estimates how drowsy they are — not a simple yes/no label, but a continuous score built from two deep learning models and three classical facial-geometry signals working together.
 
@@ -120,6 +120,4 @@ Ideas for where this goes next, beyond the current scope:
 
 ---
 
-## License
 
-MIT — see [LICENSE](LICENSE).
