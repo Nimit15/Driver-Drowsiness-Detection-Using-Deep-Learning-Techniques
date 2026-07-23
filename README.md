@@ -131,11 +131,8 @@ MediaPipe 0.10.14.
 
 ​```bash
 python -m venv ddd_env
-
 ddd_env\Scripts\activate      # Windows
-
 pip install -r requirements.txt
-
 python src/realtime_detection.py
 ​```
 
