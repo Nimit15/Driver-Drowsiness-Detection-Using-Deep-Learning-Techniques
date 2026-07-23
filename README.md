@@ -18,7 +18,7 @@ NTCC Project | B.Tech CSE | Amity School of Engineering & Technology | 2026
 
 We started out assuming one model could classify all four dataset categories together. That was wrong. The dataset actually contains two visually unrelated kinds of images — close-up eye crops, and full driver-face photos taken inside a car — and a single model trained across both got stuck near random chance (33–45% accuracy). Once we diagnosed that, we split it into two independent binary classifiers, one per visual domain, and accuracy jumped to 99%+ and 90%+ respectively.
 
-We go into more detail on how we found this and fixed it in the [full project report](docs/PROJECT_REPORT.md).
+We go into more detail on how we found this and fixed it in the [full project report](docs/NTCC_Final_Report.docx).
 
 ---
 
