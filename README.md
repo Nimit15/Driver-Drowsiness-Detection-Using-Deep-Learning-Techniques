@@ -120,4 +120,23 @@ Ideas for where this goes next, beyond the current scope:
 
 ---
 
+## Running locally
+
+TensorFlow and MediaPipe both depend on Google's `protobuf` library, but
+newer TensorFlow builds require protobuf 6.x while MediaPipe only supports
+4.x — installing both in the same environment breaks one or the other.
+This project runs inside a dedicated virtual environment (`ddd_env`) with
+versions pinned to a combination that works: TensorFlow 2.16.1 and
+MediaPipe 0.10.14.
+
+​```bash
+python -m venv ddd_env
+ddd_env\Scripts\activate      # Windows
+pip install -r requirements.txt
+python src/realtime_detection.py
+​```
+
+Close other camera apps (OBS, Zoom, Teams) before running — software virtual
+cameras can register at a lower device index than your physical webcam and
+get picked up first.
 
